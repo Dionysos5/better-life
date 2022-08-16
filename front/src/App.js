@@ -1,7 +1,9 @@
+import Card from "./components/Card";
+
 function App() {
   return (
-    <div className="text-6xl text-red-700">
-      <h1>Hello</h1>
+    <div className="container  bg-gray-100 h-screen">
+      <Card />
     </div>
   );
 }
