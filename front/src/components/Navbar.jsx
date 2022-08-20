@@ -1,8 +1,8 @@
 const Navbar = () => {
   return (
-    <nav className="relative container mx-auto p-4 border-gray-200 border-b-2 mb-2">
+    <nav className="relative  mx-auto p-4 border-gray-200 border-b-2 mb-2">
       {/* Flex Container */}
-      <div className="flex items-center justify-between">
+      <div className="flex  container items-center justify-between">
         {/* Logo */}
         <div className="flex items-center space-x-4">
           <img

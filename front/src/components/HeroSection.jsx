@@ -1,8 +1,8 @@
 const HeroSection = () => {
   return (
-    <section className="hero-section">
+    <section className="bg-gray-200">
       {/* Flex Container */}
-      <div className="flex flex-row container mx-auto p-10 mt-10 mb-5 bg-gray-200">
+      <div className="flex flex-row container mx-auto p-10 mt-10 mb-5">
         {/* Left Item */}
         <div className="flex flex-col md:w-1/2 space-y-5">
           <h1 className="text-4xl">
