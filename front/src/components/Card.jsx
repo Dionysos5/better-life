@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const Card = () => {
   return (
     <div className="card bg-white  h-90 w-80 border-2 rounded-lg overflow-hidden shadow-md">
@@ -17,12 +19,11 @@ const Card = () => {
               bulk of the card's content.
             </p>
           </div>
-            <div className=" bg-blue-500 hover:bg-blue-600 hover:shadow-inner text-white rounded-full p-1 mt-2 w-32 flex justify-center">
-            <a href="/" className="btn btn-primary">
+          <div className=" bg-blue-500 hover:bg-blue-600 hover:shadow-inner text-white rounded-full p-1 mt-2 w-32 flex justify-center">
+            <Link to="/details" className="btn btn-primary">
               Go somewhere
-            </a>
-
-            </div>
+            </Link>
+          </div>
         </div>
       </div>
     </div>
