@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const Navbar = () => {
   return (
     <nav className="relative  mx-auto p-4 border-gray-200 border-b-2 mb-2">
@@ -14,9 +16,9 @@ const Navbar = () => {
         </div>
         {/* Menu Items */}
         <div className="hidden navbar-links space-x-6 md:block">
-          <a href="/">Home</a>
-          <a href="/">About</a>
-          <a href="/">Contact</a>
+          <Link to="/">Home</Link>
+          <Link to="/details">About</Link>
+          <Link to="/details">Contact</Link>
         </div>
         {/* Button */}
         <a
